@@ -21,7 +21,6 @@ export class ListadoComponent {
     //Add 'implements OnInit' to the class.
     this.heroesService.getHeroes()
     .subscribe(heroes => { this.heroes = heroes})
-    console.log('este es el lsitado de heroes');
 
   }
 }
